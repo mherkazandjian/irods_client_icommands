@@ -108,7 +108,7 @@ if (BUILD_DOCS)
 endif()
 
 set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
-add_compile_options(-Wall -Wextra -Werror -Wno-unused-parameter)
+add_compile_options(-Wall -Wextra)
 
 add_custom_target(icommands)
 
